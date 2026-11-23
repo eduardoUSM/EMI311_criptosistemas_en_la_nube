@@ -1,0 +1,485 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "plataforma": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "pytest": "9.0.2",
+  "openssl": "OpenSSL 3.5.8 25 Aug 2026",
+  "salida": 0,
+  "pruebas": [
+    {
+      "caso": "T1",
+      "requisitos": "RF1,RF2,RF3",
+      "prueba": "tests/test_protocolo.py::test_T1_mil_entradas",
+      "estado": "passed",
+      "segundos": 0.027173
+    },
+    {
+      "caso": "T2",
+      "requisitos": "RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_T2_maximos",
+      "estado": "passed",
+      "segundos": 8.7e-05
+    },
+    {
+      "caso": "T3",
+      "requisitos": "RF1,RF3,RNF1",
+      "prueba": "tests/test_protocolo.py::test_T3_ceros_y_pendiente_cero",
+      "estado": "passed",
+      "segundos": 0.000186
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio0]",
+      "estado": "passed",
+      "segundos": 5.5e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio1]",
+      "estado": "passed",
+      "segundos": 4.4e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio2]",
+      "estado": "passed",
+      "segundos": 3.9e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio3]",
+      "estado": "passed",
+      "segundos": 3.7e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio4]",
+      "estado": "passed",
+      "segundos": 3.6e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio5]",
+      "estado": "passed",
+      "segundos": 3.6e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio6]",
+      "estado": "passed",
+      "segundos": 3.5e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio7]",
+      "estado": "passed",
+      "segundos": 3.3e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio8]",
+      "estado": "passed",
+      "segundos": 3.5e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio9]",
+      "estado": "passed",
+      "segundos": 3.5e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio10]",
+      "estado": "passed",
+      "segundos": 3.4e-05
+    },
+    {
+      "caso": "T4",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T4_parametros_invalidos[cambio11]",
+      "estado": "passed",
+      "segundos": 3.4e-05
+    },
+    {
+      "caso": "T5",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T5_entrada_invalida[41]",
+      "estado": "passed",
+      "segundos": 3.7e-05
+    },
+    {
+      "caso": "T5",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T5_entrada_invalida[-1]",
+      "estado": "passed",
+      "segundos": 4e-05
+    },
+    {
+      "caso": "T5",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T5_entrada_invalida[12.5]",
+      "estado": "passed",
+      "segundos": 3.7e-05
+    },
+    {
+      "caso": "T5",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T5_entrada_invalida[True]",
+      "estado": "passed",
+      "segundos": 3.6e-05
+    },
+    {
+      "caso": "T5",
+      "requisitos": "RNF4",
+      "prueba": "tests/test_protocolo.py::test_T5_entrada_invalida[12]",
+      "estado": "passed",
+      "segundos": 3.5e-05
+    },
+    {
+      "caso": "T6",
+      "requisitos": "RF2",
+      "prueba": "tests/test_protocolo.py::test_T6_duplicado_no_cambia_vista_ni_emite_dos_veces",
+      "estado": "passed",
+      "segundos": 0.000129
+    },
+    {
+      "caso": "T7",
+      "requisitos": "RNF2,RNF3",
+      "prueba": "tests/test_protocolo.py::test_T7_sesion_cruzada_y_expirada",
+      "estado": "passed",
+      "segundos": 8.9e-05
+    },
+    {
+      "caso": "T9",
+      "requisitos": "RNF1",
+      "prueba": "tests/test_protocolo.py::test_T9_uniformidad_10000",
+      "estado": "passed",
+      "segundos": 0.019407
+    },
+    {
+      "caso": "T10",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_T10_caida_S2",
+      "estado": "passed",
+      "segundos": 7.3e-05
+    },
+    {
+      "caso": "T11",
+      "requisitos": "RF3",
+      "prueba": "tests/test_protocolo.py::test_T11_z2_alterado",
+      "estado": "passed",
+      "segundos": 8.7e-05
+    },
+    {
+      "caso": "X1",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X1_ejemplo_E3_completo",
+      "estado": "passed",
+      "segundos": 7.3e-05
+    },
+    {
+      "caso": "X2",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X2_cualquier_par[1]",
+      "estado": "passed",
+      "segundos": 9.8e-05
+    },
+    {
+      "caso": "X2",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X2_cualquier_par[2]",
+      "estado": "passed",
+      "segundos": 0.000116
+    },
+    {
+      "caso": "X2",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X2_cualquier_par[3]",
+      "estado": "passed",
+      "segundos": 8.8e-05
+    },
+    {
+      "caso": "X3",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X3_dos_o_tres_caidos[caidos0]",
+      "estado": "passed",
+      "segundos": 8.8e-05
+    },
+    {
+      "caso": "X3",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X3_dos_o_tres_caidos[caidos1]",
+      "estado": "passed",
+      "segundos": 8.8e-05
+    },
+    {
+      "caso": "X3",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X3_dos_o_tres_caidos[caidos2]",
+      "estado": "passed",
+      "segundos": 5.8e-05
+    },
+    {
+      "caso": "X3",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X3_dos_o_tres_caidos[caidos3]",
+      "estado": "passed",
+      "segundos": 5.2e-05
+    },
+    {
+      "caso": "X4",
+      "requisitos": "RNF1",
+      "prueba": "tests/test_protocolo.py::test_X4_privacidad_de_un_share_enumeracion_exhaustiva",
+      "estado": "passed",
+      "segundos": 0.000586
+    },
+    {
+      "caso": "X5",
+      "requisitos": "RNF1",
+      "prueba": "tests/test_protocolo.py::test_X5_dos_servidores_revelan_cada_entrada",
+      "estado": "passed",
+      "segundos": 4.8e-05
+    },
+    {
+      "caso": "X6",
+      "requisitos": "RF3",
+      "prueba": "tests/test_protocolo.py::test_X6_dos_parciales_no_detectan_manipulacion",
+      "estado": "passed",
+      "segundos": 5.2e-05
+    },
+    {
+      "caso": "X7",
+      "requisitos": "RF3",
+      "prueba": "tests/test_protocolo.py::test_X7_dos_alteraciones_coordinadas_pasan_colinealidad",
+      "estado": "passed",
+      "segundos": 3.9e-05
+    },
+    {
+      "caso": "X8",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X8_base_aditiva_varia_n_m[2-2-40-81]",
+      "estado": "passed",
+      "segundos": 7e-05
+    },
+    {
+      "caso": "X8",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X8_base_aditiva_varia_n_m[3-3-40-121]",
+      "estado": "passed",
+      "segundos": 7.5e-05
+    },
+    {
+      "caso": "X8",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X8_base_aditiva_varia_n_m[4-5-10-41]",
+      "estado": "passed",
+      "segundos": 0.000104
+    },
+    {
+      "caso": "X8",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X8_base_aditiva_varia_n_m[5-4-0-2]",
+      "estado": "passed",
+      "segundos": 0.000128
+    },
+    {
+      "caso": "X9",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X9_shamir_varia_n_y_cotas[2-40-83]",
+      "estado": "passed",
+      "segundos": 5.6e-05
+    },
+    {
+      "caso": "X9",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X9_shamir_varia_n_y_cotas[4-10-43]",
+      "estado": "passed",
+      "segundos": 5.9e-05
+    },
+    {
+      "caso": "X9",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X9_shamir_varia_n_y_cotas[3-1000-3001]",
+      "estado": "passed",
+      "segundos": 6.8e-05
+    },
+    {
+      "caso": "X9",
+      "requisitos": "RF1,RF2,RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X9_shamir_varia_n_y_cotas[5-0-5]",
+      "estado": "passed",
+      "segundos": 6.2e-05
+    },
+    {
+      "caso": "X10",
+      "requisitos": "RNF3",
+      "prueba": "tests/test_protocolo.py::test_X10_base_aditiva_no_tolera_caida",
+      "estado": "passed",
+      "segundos": 9.2e-05
+    },
+    {
+      "caso": "X11",
+      "requisitos": "RF2,RF3,RNF2,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X11_validacion_mensajes_y_parciales",
+      "estado": "passed",
+      "segundos": 4.5e-05
+    },
+    {
+      "caso": "X12",
+      "requisitos": "RF3,RNF3",
+      "prueba": "tests/test_protocolo.py::test_X12_no_publica_antes_del_plazo",
+      "estado": "passed",
+      "segundos": 5e-05
+    },
+    {
+      "caso": "X13",
+      "requisitos": "RF1,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X13_mensajes_inmutables_y_sin_entrada",
+      "estado": "passed",
+      "segundos": 5e-05
+    },
+    {
+      "caso": "X14",
+      "requisitos": "RNF3",
+      "prueba": "tests/test_protocolo.py::test_X14_servidor_espera_y_aborta_al_vencer_T",
+      "estado": "passed",
+      "segundos": 4.8e-05
+    },
+    {
+      "caso": "X15",
+      "requisitos": "RF3,RNF4",
+      "prueba": "tests/test_protocolo.py::test_X15_cota_publica_no_asegura_verdad",
+      "estado": "passed",
+      "segundos": 7.2e-05
+    },
+    {
+      "caso": "X16",
+      "requisitos": "RF3,RNF1",
+      "prueba": "tests/test_protocolo.py::test_X16_fuga_del_resultado",
+      "estado": "passed",
+      "segundos": 7.3e-05
+    },
+    {
+      "caso": "T8",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_T8_TLS13_mutuo_valido[hospital-mensaje0]",
+      "estado": "passed",
+      "segundos": 0.01004
+    },
+    {
+      "caso": "T8",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_T8_TLS13_mutuo_valido[parcial-mensaje1]",
+      "estado": "passed",
+      "segundos": 0.003427
+    },
+    {
+      "caso": "T8",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_T8_sin_certificado_o_CA_ajena[None-mensaje0]",
+      "estado": "passed",
+      "segundos": 0.002011
+    },
+    {
+      "caso": "T8",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_T8_sin_certificado_o_CA_ajena[None-mensaje1]",
+      "estado": "passed",
+      "segundos": 0.001958
+    },
+    {
+      "caso": "T8",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_T8_sin_certificado_o_CA_ajena[intruso-mensaje2]",
+      "estado": "passed",
+      "segundos": 0.002524
+    },
+    {
+      "caso": "T8",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_T8_sin_certificado_o_CA_ajena[intruso-mensaje3]",
+      "estado": "passed",
+      "segundos": 0.002748
+    },
+    {
+      "caso": "X17",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_X17_certificado_no_autoriza_otro_origen[hospital-mensaje0]",
+      "estado": "passed",
+      "segundos": 0.002729
+    },
+    {
+      "caso": "X17",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_X17_certificado_no_autoriza_otro_origen[hospital-mensaje1]",
+      "estado": "passed",
+      "segundos": 0.002927
+    },
+    {
+      "caso": "X17",
+      "requisitos": "RNF2",
+      "prueba": "tests/test_tls.py::test_X17_certificado_no_autoriza_otro_origen[parcial-mensaje2]",
+      "estado": "passed",
+      "segundos": 0.002683
+    }
+  ],
+  "uniformidad": {
+    "N": 10000,
+    "x": 15,
+    "p": 127,
+    "intervalos": 10,
+    "gl": 9,
+    "alfa": 0.001,
+    "critico": 27.88,
+    "chi2": 23.566016666666663,
+    "observados": [
+      1026,
+      1003,
+      943,
+      873,
+      1078,
+      1041,
+      986,
+      1009,
+      1020,
+      1021
+    ],
+    "esperados": [
+      1023.6220472440945,
+      1023.6220472440945,
+      1023.6220472440945,
+      944.8818897637796,
+      1023.6220472440945,
+      1023.6220472440945,
+      944.8818897637796,
+      1023.6220472440945,
+      1023.6220472440945,
+      944.8818897637796
+    ]
+  },
+  "sha256_fuentes": {
+    "demo.py": "d85b16b87e8416abc9951df5d173c94e300c0c242e064eff5633ffc1ed56379f",
+    "pytest.ini": "aa03825383a182eb1bfa0d44b17dac07223813916424d1ec5491631bdaf7ece3",
+    "requirements.txt": "693d97bdd0fb5283060c3efadf25a90d0c3b59be09b25fac59f5f1c68a1f993b",
+    "suma_segura/__init__.py": "477c5436e84604cad2f202148741f7059587b9ffc41e12664c55576445093555",
+    "suma_segura/analista.py": "b8639287a3723ab7aa322b44f3beacb827775a1db0904db563b0beddac27a2ea",
+    "suma_segura/hospital.py": "d2ec16ef33d960c2c676e946b9ee1b5caa92c955be33e7f6edf9bda4be3a46e9",
+    "suma_segura/modelo.py": "3d76010b8cec5cad470e1d4bcfca8c9f8865cac9056a97f31795230e45353d0d",
+    "suma_segura/servidor.py": "bcbd8ed72845c284232c2070af0a46017067cf2dbf3e3e4707cd9b156dc24143",
+    "suma_segura/simulacion.py": "dfca2eadf029778588990f58681b05423204b9b53c671e13be2f865373880c04",
+    "suma_segura/transporte_tls.py": "5887a3a999abba3f2dcc323bda2f6706cc8d71562f99287c51f0681c9bb7876d",
+    "tests/conftest.py": "1496c2de3a35c999ec5204baa057792b347a32ded1248e19adcf048f79e14339",
+    "tests/test_protocolo.py": "47e65ce11eefa5eb96db04ca90f51546193adf0a15a9e99ceec1d590f37f38a3",
+    "tests/test_tls.py": "0488f70cf9517efe0c1f5fd6ceb4ba5a13893f25cc66d16fd1481aff449a7120"
+  }
+}
