@@ -124,10 +124,3 @@ una salida favorable. Aprobar esta prueba no demuestra impredecibilidad.
 - El sid de ejemplo es fijo para la demostración. En producción debe ser único,
   acordado y protegido contra reutilización, con estado persistente de sesiones.
 
-## Fuentes del trabajo
-
-Material del docente: presentación de Clase 4, láminas 29–31; Capítulo 4,
-secciones 4.1–4.8; infografía de Clases 4 y 5. Diseño de partida: informe propio
-Entregable 3, secciones 3 y 4, y modelos del Entregable 2. Se usa una implementación
-propia organizada a partir de esos modelos; no se incluye el código completo del
-prototipo de referencia como si fuera trabajo propio.
